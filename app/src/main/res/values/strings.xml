@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CodeLabsProject</string>
+
+    <string name="basic_compose_placeholder_search">Search</string>
 </resources>
