@@ -26,7 +26,8 @@ fun HomeSection(
         Text(
             text = stringResource(id = title),
             style = MaterialTheme.typography.titleMedium,
-            modifier = Modifier.padding(horizontal = 16.dp)
+            modifier = Modifier
+                .padding(horizontal = 16.dp)
                 .paddingFromBaseline(top = 40.dp, bottom = 16.dp)
         )
         content()
@@ -36,7 +37,7 @@ fun HomeSection(
 @Preview(showSystemUi = true, device = Devices.PIXEL_6)
 @Composable
 fun HomeSectionPreview() {
-    HomeSection(title = R.string.basic_compose_section_title) {
+    HomeSection(title = R.string.basic_compose_section_title_align_your_body) {
         AlignYourBodyRow()
     }
 }

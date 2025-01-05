@@ -3,5 +3,6 @@
 
     <string name="basic_compose_placeholder_search">Search</string>
     <string name="basic_compose_item_title">Test</string>
-    <string name="basic_compose_section_title">Align your Body</string>
+    <string name="basic_compose_section_title_align_your_body">Align your Body</string>
+    <string name="basic_compose_section_title_favorite_collections">Favorite Collections</string>
 </resources>
