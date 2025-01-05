@@ -14,7 +14,7 @@ class BasicComposeActivity : ComponentActivity() {
         setContent {
             CodeLabsProjectTheme {
                 val windowSizeClass = calculateWindowSizeClass(this)
-                MySootheApp(windowSize = windowSizeClass)
+                MySootheApp(windowSize = windowSizeClass.widthSizeClass)
             }
         }
     }
